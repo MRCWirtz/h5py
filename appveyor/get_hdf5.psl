@@ -1,0 +1,2 @@
+$source = "https://dev-h5py-org.s3.amazonaws.com/hdf5-py27.zip"
+Invoke-WebRequest $source -OutFile "C:\hdf5\hdf5-py27.zip"
