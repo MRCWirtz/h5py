@@ -2,3 +2,4 @@ install:
   - ECHO "Hello World"
   
 build: false
+
