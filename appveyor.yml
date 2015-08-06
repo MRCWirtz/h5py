@@ -31,7 +31,6 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
   - ps: ".\\appveyor\get_hdf5.psl"
   - ps: "ls \"C:/\""
-  - ps: "ls \"C:/hdf5\""
    
   # Install the build dependencies of the project. If some dependencies contain
   # compiled extensions and are not provided as pre-built wheel packages,
