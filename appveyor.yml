@@ -35,9 +35,10 @@ install:
   # pip will build them from source using the MSVC compiler matching the
   # target Python version and architecture
   #- "%CMD_IN_ENV% pip install -r dev-requirements.txt"
-
+  - "%CMD_IN_ENV% pip install numpy cython pkgconfig nose"
+  
 build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:
   # Build the compiled extension and run the project tests
-  - "%CMD_IN_ENV% pip install numpy"
+  - ECHO "Build here"
